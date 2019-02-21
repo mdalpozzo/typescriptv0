@@ -8,7 +8,8 @@
     "start": "node server.js",
     "start-dev": "nodemon --watch client/dist/bundle.js server.js",
     "build-dev": "cd client && webpack --watch --mode development",
-    "build": "cd client && webpack"
+    "build": "cd client && webpack",
+    "sass": "sass --watch client/dist/scss/styles.scss:client/dist/styles.css"
   },
   "repository": {
     "type": "git",
